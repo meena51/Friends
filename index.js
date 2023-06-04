@@ -35,7 +35,7 @@ button[0].addEventListener('click',function(){
         // var image= document.querySelectorAll("img")[0];
         // image.setAttribute("src",randomImageSource);
 
-        let p="images/friend"+i+".JPG";
+        let p="images/friend"+i+".jpg";
         let img=document.getElementsByClassName("img");
         img[0].setAttribute("src",p);
     }
